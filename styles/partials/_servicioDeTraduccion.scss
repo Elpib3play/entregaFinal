@@ -1,0 +1,26 @@
+#cartas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vh;
+    height: 100VH;
+    .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:auto;
+        border: solid 2px black;
+        border-radius: 10px;
+        #card-body{
+            margin:5px;
+            border-radius: 6px;
+            background-color: map-get($color,colorpagee);
+            color: rgb(255, 255, 255);
+            .spn{
+                background-color: map-get($color,colorpagee);
+                color:map-get($color,colorpagee);
+            }
+        }
+    }
+}

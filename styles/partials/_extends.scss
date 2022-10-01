@@ -1,0 +1,12 @@
+%flexRowCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%imageCenter{
+    height:100vh;
+    background-image: url(../img/eeuu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
