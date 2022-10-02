@@ -92,7 +92,7 @@ span {
 #cotizaAqui {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -120,7 +120,7 @@ span {
   color: rgb(255, 255, 255);
 }
 #formulario .fonfoform {
-  background-color: #1C1B35;
+  background-color: rgba(9, 40, 58, 0.623);
   text-decoration: underline;
   border: 2px solid;
   padding: 7px;
@@ -141,7 +141,7 @@ span {
   margin: auto;
 }
 #cartas #bloqCard .card {
-  background-color: #1C1B35;
+  background-color: rgba(9, 40, 58, 0.623);
   color: rgb(255, 255, 255);
   border: solid 5px rgb(255, 255, 255);
 }
@@ -169,15 +169,16 @@ span {
   width: auto;
   border: solid 2px black;
   border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.397);
 }
 #cartas .card #card-body {
   margin: 5px;
   border-radius: 6px;
-  background-color: #1C1B35;
+  background-color: rgba(9, 40, 58, 0.623);
   color: rgb(255, 255, 255);
 }
 #cartas .card #card-body .spn {
-  background-color: #1C1B35;
+  background-color: rgba(9, 40, 58, 0.623);
   color: #1C1B35;
 }
 
@@ -212,12 +213,9 @@ body {
   #cotizaAqui {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 100vh;
   }
   #presentacionuno {
     display: flex;
-    justify-content: center;
     align-items: center;
     text-align: center;
     margin-top: 10px;
@@ -241,7 +239,6 @@ body {
   #cotizaAqui {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
   }
   #boton a {
@@ -280,7 +277,7 @@ body {
   #cartas .card #card-body {
     margin: auto;
     border-radius: 6px;
-    background-color: #1C1B35;
+    background-color: rgba(9, 40, 58, 0.623);
     color: white;
   }
   #cartas .card #card-body .titulo {
@@ -307,7 +304,7 @@ body {
     display: flex;
     flex-direction: column;
     height: auto;
-    background-color: #1C1B35;
+    background-color: rgba(9, 40, 58, 0.623);
     text-decoration: underline;
     border: 2px solid;
     padding: 5px;
